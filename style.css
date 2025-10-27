@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #141313;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+main section .top {
+  width: 100%;
+}
+main section .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+main section .bottom {
+  background-color: #303030;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 10px;
+}
+main section .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+main section .bottom .text h1 {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 2.7rem;
+}
+main section .bottom .text p {
+  font-weight: 100;
+  opacity: 0.6;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+main section .bottom .text button {
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=style.css.map */
