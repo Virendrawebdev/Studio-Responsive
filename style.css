@@ -19,17 +19,22 @@ body {
   background-color: #141313;
 }
 
+section {
+  max-width: 2000px;
+}
+
 main {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 0rem;
+  align-items: center;
 }
 main section {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   padding: 1rem;
 }
 main section .top {
@@ -37,15 +42,15 @@ main section .top {
 }
 main section .top img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.7rem;
 }
 main section .bottom {
   background-color: #303030;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  border-radius: 10px;
+  gap: 2rem;
+  border-radius: 0.7rem;
 }
 main section .bottom .text {
   display: flex;
@@ -66,4 +71,32 @@ main section .bottom .text p {
 main section .bottom .text button {
   width: -moz-fit-content;
   width: fit-content;
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 900px) {
+  main section {
+    flex-direction: row;
+    padding: 1rem 3rem;
+  }
+  main section .top, main section .bottom {
+    width: 50%;
+  }
+  main section .bottom {
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  main section .bottom .text {
+    gap: 1.5rem;
+  }
+  main section .bottom .text h1 {
+    font-size: 3.5rem;
+  }
+  main section .bottom .text p {
+    width: 60%;
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
