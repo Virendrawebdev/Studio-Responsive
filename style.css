@@ -331,6 +331,45 @@ section.view5 .card3 .icon {
   border-radius: 50%;
 }
 
+section.view6 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+section.view6 .top {
+  width: 100%;
+}
+section.view6 .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+section.view6 .bottom {
+  background-color: #303030;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 0.7rem;
+}
+section.view6 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+section.view6 .bottom .text p {
+  font-weight: 100;
+  opacity: 0.6;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+section.view6 .bottom .text h2 {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 2.7rem;
+}
+
 @media (min-width: 900px) {
   main section.view1 {
     flex-direction: row;
@@ -397,5 +436,15 @@ section.view5 .card3 .icon {
   main section.view5 {
     flex-direction: row;
     padding: 1rem 3rem;
+  }
+  main section.view6 {
+    flex-direction: row;
+    padding: 1rem 3rem;
+  }
+  main section.view6 .top, main section.view6 .bottom {
+    width: 50%;
+  }
+  main section.view6 .bottom {
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=style.css.map */
